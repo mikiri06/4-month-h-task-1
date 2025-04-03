@@ -1,12 +1,14 @@
 // import React from 'react'
-import hero from '../../imgs/hero.png'
-import socialMedia from '../../imgs/social.png'
+import hero from '../../imgs/header/hero.png'
+import socialMedia from '../../imgs/header/social.png'
+import svg from '../../imgs/header/IMAGE.svg'
 import './banner.scss'
 
 export default function Banner() {
 	return (
 		<div className='row'>
-			<div className='col-6'>
+			<div className='col-6 rele'>
+				<img src={svg} alt='' className='svg' />
 				<img className='hero' src={hero} alt='' />
 			</div>
 			<div className='col-6'>
