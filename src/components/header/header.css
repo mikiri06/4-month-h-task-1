@@ -1,0 +1,26 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
+.Header .Links {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.Header .Links :first-child a {
+  color: #118da8;
+}
+.Header .Links li {
+  list-style-type: none;
+}
+.Header .Links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.Header .Links li a:hover {
+  color: #118da8;
+}/*# sourceMappingURL=header.css.map */
