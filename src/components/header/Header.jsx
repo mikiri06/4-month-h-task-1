@@ -9,13 +9,13 @@ export default function Header() {
 					<a href='#'>Home</a>
 				</li>
 				<li>
-					<a href='#'>Episodes</a>
+					<a href='#episodes'>Episodes</a>
 				</li>
 				<li>
-					<a href='#'>About</a>
+					<a href='#about'>About</a>
 				</li>
 				<li>
-					<a href='#'>Contact</a>
+					<a href='#contact'>Contact</a>
 				</li>
 			</nav>
 		</header>

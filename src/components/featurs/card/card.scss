@@ -1,0 +1,77 @@
+.card-container {
+	width: 100%;
+	padding: 40px;
+	display: flex;
+	gap: 53px;
+	border-radius: 32px;
+	background: #000;
+	margin-top: 40px;
+
+	&-img {
+		width: 35%;
+		img {
+			width: 100%;
+			height: 465px;
+			object-fit: cover;
+		}
+	}
+	&-description {
+		width: 60%;
+
+		.category {
+			padding-inline: 16px;
+			border-radius: 6px;
+			background: #191919;
+			color: #fff;
+			font-family: 'DM Sans';
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 27px; /* 150% */
+			width: 73px;
+			height: 27px;
+		}
+
+		.episode {
+			margin-top: 48px;
+			color: #118da8;
+			font-family: 'DM Sans';
+			font-size: 17px;
+			font-weight: 400;
+			line-height: 27px; /* 158.824% */
+		}
+
+		.title {
+			margin-top: 18px;
+			color: #fff;
+			font-family: 'DM Sans';
+			font-size: 64px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 70.4px; /* 110% */
+			letter-spacing: 2.56px;
+		}
+		.description {
+			margin-top: 18px;
+			max-width: 757px;
+			color: rgba(255, 255, 255, 0.7);
+			font-family: 'DM Sans';
+			font-size: 22px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 33px; /* 150% */
+		}
+
+		.blue-btn {
+			margin-top: 30px;
+			// color: #fff;
+			// font-family: 'DM Sans';
+			// font-size: 18px;
+			// font-style: normal;
+			// font-weight: 400;
+			// line-height: 27px; /* 150% */
+			// padding: 12px 20px;
+			// border-radius: 6px;
+			// background: #118da8;
+		}
+	}
+}

@@ -4,6 +4,9 @@ import Header from './components/header/Header'
 // import Footer from './components/footer/Foot'
 import Banner from './components/banner/Banner'
 import Episodes from './components/episodes/Episodes'
+import About from './components/about/About'
+import Contacts from './components/contacts/Contacts'
+import Comments from './components/comments/Comments'
 import Foot from './components/footer/Foot'
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
 			<Header />
 			<Banner />
 			<Episodes />
+			<About />
+			<Contacts />
+			<Comments />
 			<Foot />
 		</div>
 	)

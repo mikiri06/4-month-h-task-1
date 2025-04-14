@@ -1,6 +1,6 @@
 // import React from 'react'
-import hero from '../../imgs/hero.png'
-import socialMedia from '../../imgs/social.png'
+import hero from '../../imgs/banner/hero.png'
+import socialMedia from '../../imgs/banner/social.png'
 import './banner.scss'
 
 export default function Banner() {
